@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+ul {
+list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #4BACC6;
+      border-color: red;
+
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: red;
+
+  text-align: left;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul li {
+  background: #f5f5f5;
+  margin: 10px;
+}
+
+.connected
+{
+
+  list-style-type: none;
+  text-align: center;
+}
+.connect
+{
+  float: right;
+  border: 2px solid blue;
+  list-style-type: none;
+  text-align: center;
+}
+hr.new4 {
+  border: 1px solid white;
+  margin-top: 20px;
+</style>
+</head>
+<body>
+
+ 
+<ul class="connected">
+ 
+   <li><img src="web_logo.jpg" width="150" height="108" alt="User" />
+   </li>
+  
+            
+  <li class="connect"  ><a class="connected" href="">SERVICES</a></li>
+  <li class="connect"><a href="">PRODUCTS</a></li>
+  <li class="connect"><a href="">GALLERY</a></li>
+  <li class="connect" id="message"><a href="">HOME</a></li>
+
+</ul>
+<ul><hr class="new4">
+</ul>
+
+<script>
+document.getElementById("message").addEventListener("click", function() {
+  alert("Welcome Home!");
+});
+</script>
+</body>
+</html>
+
+
